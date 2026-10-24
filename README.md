@@ -13,8 +13,8 @@
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-4.0+-38B2AC?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
 [![Ollama](https://img.shields.io/badge/Ollama-Local_AI-white?style=flat&logo=ollama&logoColor=black)](https://ollama.com)
 [![SQLite](https://img.shields.io/badge/SQLite-Local_Storage-003B57?style=flat&logo=sqlite&logoColor=white)](https://sqlite.org)
-[![Tests Passing](https://img.shields.io/badge/Tests-22%2F22%20Passing-brightgreen?style=flat)](https://github.com)
-[![Privacy First](https://img.shields.io/badge/Privacy-100%25%20Offline-emerald?style=flat)](https://github.com)
+[![Tests Passing](https://img.shields.io/badge/Tests-22%2F22%20Passing-brightgreen?style=flat)](https://github.com/omshree59/Hacto-FridgeAI)
+[![Privacy First](https://img.shields.io/badge/Privacy-100%25%20Offline-emerald?style=flat)](https://github.com/omshree59/Hacto-FridgeAI)
 
 <p align="center">
   <a href="#-key-features">Key Features</a> •
@@ -141,8 +141,8 @@ flowchart TD
 ### Step 2: Clone the Repository & Configure Environment
 
 ```bash
-git clone https://github.com/your-username/fridgeflow-ai.git
-cd fridgeflow-ai
+git clone https://github.com/omshree59/Hacto-FridgeAI.git
+cd Hacto-FridgeAI
 ```
 
 Copy the sample environment file:

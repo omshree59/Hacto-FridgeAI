@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+:root {
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  
+  /* Light Palette */
+  --bg-primary: #F8F7F2;
+  --bg-surface: #FFFFFF;
+  --bg-surface-elevated: #FFFFFF;
+  --bg-subtle: #EFECE4;
+  --border-light: #E2DFD6;
+  --border-subtle: #ECE9E1;
+
+  --forest-900: #0E241E;
+  --forest-800: #183D32;
+  --forest-700: #245747;
+  --forest-600: #327560;
+  --forest-500: #42957C;
+
+  --sage-300: #C2D6BD;
+  --sage-400: #A8C3A0;
+  --sage-500: #88A77F;
+  --sage-600: #6B8B63;
+
+  --citrus-400: #E2EC92;
+  --citrus-500: #D0DC6A;
+
+  --ink-900: #1A231D;
+  --ink-800: #2A362E;
+  --ink-700: #3F4E44;
+  --ink-500: #687A6E;
+  --ink-400: #8D9E93;
+
+  --accent-alert: #D9483B;
+  --accent-alert-bg: #FDF2F0;
+  --accent-alert-border: #F7C6C2;
+
+  --accent-warning: #D9822B;
+  --accent-warning-bg: #FEF7EE;
+  --accent-warning-border: #FCD8B3;
+
+  --accent-success: #2B8A5A;
+  --accent-success-bg: #F0F9F4;
+  --accent-success-border: #B7E4CD;
+}
+
+.dark {
+  /* Dark Palette */
+  --bg-primary: #0F1713;
+  --bg-surface: #17221C;
+  --bg-surface-elevated: #1F2D26;
+  --bg-subtle: #141E18;
+  --border-light: #283830;
+  --border-subtle: #212E27;
+
+  --forest-900: #A8C3A0;
+  --forest-800: #468A73;
+  --forest-700: #35735E;
+  --forest-600: #29604E;
+  --forest-500: #183D32;
+
+  --sage-300: #24352B;
+  --sage-400: #324A3D;
+  --sage-500: #4D6D5C;
+  --sage-600: #8BA882;
+
+  --citrus-400: #D8E575;
+  --citrus-500: #B8C74D;
+
+  --ink-900: #F3F5F1;
+  --ink-800: #DEE3DB;
+  --ink-700: #B9C3B6;
+  --ink-500: #8E9C8C;
+  --ink-400: #6C7B6B;
+
+  --accent-alert: #F26E63;
+  --accent-alert-bg: #2B1615;
+  --accent-alert-border: #522725;
+
+  --accent-warning: #F09A4D;
+  --accent-warning-bg: #2C1D0E;
+  --accent-warning-border: #573A1B;
+
+  --accent-success: #4ADE80;
+  --accent-success-bg: #12291C;
+  --accent-success-border: #1E4E34;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--ink-900);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-light);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ink-400);
+}
